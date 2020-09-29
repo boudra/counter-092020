@@ -26,6 +26,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <h1>This is a change</h1>
         <center>
           <Counter />
         </center>
